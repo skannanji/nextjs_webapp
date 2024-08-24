@@ -1,0 +1,11 @@
+mkdir my-nextjs-app
+cd my-nextjs-app
+npx create-next-app@latest
+
+Install necessary dependencies:
+npm install @emotion/react @emotion/styled @mui/material @mui/icons-material
+npm install @mui/material @emotion/react @emotion/styled
+
+
+rm -rf .next
+npm run dev
